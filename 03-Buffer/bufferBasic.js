@@ -32,3 +32,24 @@ const buf2 = Buffer.from("code");
 const merged = Buffer.concat([buf1, buf2]);
 console.log(merged.toString());                 //Chai aurcode
 console.log(merged.length);                     // 12
+
+
+
+
+
+/*                                  Theory - What are buffer
+
+A buffer is a temporary storage arrea for binary data.
+
+Nodejs does not support directly binary manipulation (like c,c++) , so buffer help to
+handle raw data efficiently
+
+Used mostly when dealing with file stream , network data and binary protocol.
+
+
+                             Why do we need ?
+
+1. Javascript string are utf-8 encoded making diret data handling inefficient.
+2. Buffer store binary data outside v8 , heap.
+
+*/
