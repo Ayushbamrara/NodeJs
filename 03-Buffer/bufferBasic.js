@@ -39,9 +39,9 @@ console.log(merged.length);                     // 12
 
 /*                                  Theory - What are buffer
 
-A buffer is a temporary storage arrea for binary data.
-
-Nodejs does not support directly binary manipulation (like c,c++) , so buffer help to
+1. A buffer is a temporary storage arrea for binary data.
+ 
+2. Nodejs does not support directly binary manipulation (like c,c++) , so buffer help to
 handle raw data efficiently
 
 Used mostly when dealing with file stream , network data and binary protocol.
