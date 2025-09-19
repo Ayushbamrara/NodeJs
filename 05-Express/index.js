@@ -13,6 +13,7 @@ app.get('/about', function(req, res){
 })
 app.get('/tweet', function(req, res){
     res.end("Tweet1\nTweet2\nTweet3");
+    
 })
 
 app.post('/tweet', (req, res)=>{
