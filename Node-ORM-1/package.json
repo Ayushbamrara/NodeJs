@@ -1,19 +1,18 @@
 {
-  "name": "express-book-store",
+  "name": "node-orm-1",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
   "author": "",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "drizzle.config.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "dotenv": "^17.2.3",
     "drizzle-kit": "^0.31.6",
     "drizzle-orm": "^0.44.7",
-    "express": "^5.1.0",
     "pg": "^8.16.3"
   }
 }

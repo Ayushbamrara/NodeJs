@@ -1,0 +1,9 @@
+services:
+  postgres:
+    images: "postgres:17.4"
+    ports:
+      -5432:5432
+    environment:
+      POSTGRES_DB : book-store
+      POSTGRESS_USER : postgres
+      POSTGRES_PASSWORD: admin
